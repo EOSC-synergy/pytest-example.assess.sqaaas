@@ -4,5 +4,6 @@
 
 (
 cd github.com/ptracesecurity/pytest-example &&
-    make\nmicromamba activate ./venv
+    make
+micromamba activate ./venv
 )
