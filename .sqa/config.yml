@@ -1,0 +1,68 @@
+config:
+  credentials: []
+  project_repos:
+    github.com/EOSC-synergy/sqaaas-tooling:
+      branch: release/1.7.13
+      repo: https://github.com/EOSC-synergy/sqaaas-tooling
+    github.com/ptracesecurity/pytest-example:
+      branch: master
+      repo: https://github.com/ptracesecurity/pytest-example
+environment:
+  JPL_DOCKERFORCEBUILD: enabled
+  JPL_KEEPGOING: enabled
+sqa_criteria:
+  QC.Acc:
+    repos:
+      github.com/ptracesecurity/pytest-example git:
+        commands:
+        - /usr/bin/env sh .sqa/script.snoopy-peach-tuatara.sh
+        container: qc.acc_droopy-viridian-echidna
+  QC.Doc:
+    repos:
+      github.com/ptracesecurity/pytest-example find_doc_files.py:
+        commands:
+        - /usr/bin/env sh .sqa/script.hilly-carmine-lion.sh
+        container: qc.doc_sickly-ochre-rottweiler
+      github.com/ptracesecurity/pytest-example git:
+        commands:
+        - /usr/bin/env sh .sqa/script.dorky-celadon-mammoth.sh
+        container: qc.doc_nerdy-orchid-peccary
+      github.com/ptracesecurity/pytest-example markdownlint:
+        commands:
+        - /usr/bin/env sh .sqa/script.stinky-corn-dragon.sh
+        container: qc.doc_skimpy-auburn-devil
+  QC.Lic:
+    repos:
+      github.com/ptracesecurity/pytest-example licensee:
+        commands:
+        - /usr/bin/env sh .sqa/script.cheeky-heliotrope-javanese.sh
+        container: qc.lic_breezy-ivory-saola
+  QC.Sec:
+    repos:
+      github.com/ptracesecurity/pytest-example bandit:
+        commands:
+        - /usr/bin/env sh .sqa/script.freaky-cobalt-bombay.sh
+        container: qc.sec_geeky-ruby-snake
+  QC.Sty:
+    repos:
+      github.com/ptracesecurity/pytest-example flake8:
+        commands:
+        - /usr/bin/env sh .sqa/script.stinky-firebrick-wolverine.sh
+        container: qc.sty_hilly-orange-cheetah
+      github.com/ptracesecurity/pytest-example jsonlint:
+        commands:
+        - /usr/bin/env sh .sqa/script.boozy-bronze-cockroach.sh
+        container: qc.sty_paltry-flax-maltese
+  QC.Uni:
+    repos:
+      github.com/ptracesecurity/pytest-example commands:
+        commands:
+        - /usr/bin/env sh .sqa/script.ready-coral-heron.sh
+        container: qc.uni_squirrely-olivine-robin
+  QC.Ver:
+    repos:
+      github.com/ptracesecurity/pytest-example get_git_tags.py:
+        commands:
+        - /usr/bin/env sh .sqa/script.surly-gamboge-moose.sh
+        container: qc.ver_gimpy-amber-zorse
+timeout: 5400
