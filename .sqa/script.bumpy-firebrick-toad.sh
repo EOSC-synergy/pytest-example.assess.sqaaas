@@ -5,5 +5,5 @@
 
 (
 cd github.com/ptracesecurity/pytest-example &&
-    pytest -sv
+    pytest / --json-report --json-report-indent 4
 )
