@@ -5,5 +5,5 @@
 
 (
 cd github.com/ptracesecurity/pytest-example &&
-    pytest / --json-report --json-report-indent 4
+    pytest pytest -svv tests/mymodule/test_additions.py::test_add
 )
