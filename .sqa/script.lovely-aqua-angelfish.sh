@@ -5,5 +5,5 @@
 
 (
 cd github.com/ptracesecurity/pytest-example &&
-    pytest pytest -svv tests/mymodule/test_additions.py::test_add
+    pytest -sv
 )
