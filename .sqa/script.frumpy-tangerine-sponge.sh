@@ -5,5 +5,5 @@
 
 (
 cd github.com/ptracesecurity/pytest-example &&
-    pytest -sv
+    pytest -sv tests/mymodule/test_funcs.py::test_divide
 )

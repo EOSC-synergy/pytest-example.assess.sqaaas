@@ -15,54 +15,54 @@ sqa_criteria:
     repos:
       github.com/ptracesecurity/pytest-example git:
         commands:
-        - /usr/bin/env sh .sqa/script.greasy-mustard-wallaby.sh
-        container: qc.acc_sickly-turquoise-mau
+        - /usr/bin/env sh .sqa/script.slimy-indigo-angelfish.sh
+        container: qc.acc_sleazy-red-schnauzer
   QC.Doc:
     repos:
       github.com/ptracesecurity/pytest-example find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.flabby-scarlet-uguisu.sh
-        container: qc.doc_whiny-brass-snail
+        - /usr/bin/env sh .sqa/script.lanky-razzmatazz-koala.sh
+        container: qc.doc_hazy-green-akbash
       github.com/ptracesecurity/pytest-example git:
         commands:
-        - /usr/bin/env sh .sqa/script.goopy-turquoise-hedgehog.sh
-        container: qc.doc_wheezy-olive-spider
+        - /usr/bin/env sh .sqa/script.pasty-corn-tortoise.sh
+        container: qc.doc_randy-asparagus-cheetah
       github.com/ptracesecurity/pytest-example markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.pretty-rose-anteater.sh
-        container: qc.doc_ugly-silver-tortoise
+        - /usr/bin/env sh .sqa/script.lovely-firebrick-elephant.sh
+        container: qc.doc_muzzy-brass-earwig
   QC.Lic:
     repos:
       github.com/ptracesecurity/pytest-example licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.snappy-black-boar.sh
-        container: qc.lic_randy-plum-robin
+        - /usr/bin/env sh .sqa/script.squirrely-chocolate-gecko.sh
+        container: qc.lic_messy-cobalt-macaw
   QC.Sec:
     repos:
       github.com/ptracesecurity/pytest-example bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.stinky-red-cow.sh
-        container: qc.sec_sickly-olive-spitz
+        - /usr/bin/env sh .sqa/script.lumpy-copper-tuatara.sh
+        container: qc.sec_freaky-alizarin-bongo
   QC.Sty:
     repos:
       github.com/ptracesecurity/pytest-example flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.gamy-tomato-angelfish.sh
-        container: qc.sty_flimsy-cobalt-zorse
+        - /usr/bin/env sh .sqa/script.pokey-copper-terrier.sh
+        container: qc.sty_scummy-razzmatazz-havanese
       github.com/ptracesecurity/pytest-example jsonlint:
         commands:
-        - /usr/bin/env sh .sqa/script.shabby-cerise-devil.sh
-        container: qc.sty_scummy-platinum-orangutan
+        - /usr/bin/env sh .sqa/script.chummy-razzmatazz-bracke.sh
+        container: qc.sty_chewy-zucchini-lemur
   QC.Uni:
     repos:
       github.com/ptracesecurity/pytest-example commands:
         commands:
-        - /usr/bin/env sh .sqa/script.trippy-buff-sparrow.sh
-        container: qc.uni_queasy-salmon-burmese
+        - /usr/bin/env sh .sqa/script.frumpy-tangerine-sponge.sh
+        container: qc.uni_trippy-coral-barnacle
   QC.Ver:
     repos:
       github.com/ptracesecurity/pytest-example get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.muggy-violet-stoat.sh
-        container: qc.ver_pretty-rose-robin
+        - /usr/bin/env sh .sqa/script.slimy-pink-dugong.sh
+        container: qc.ver_bumpy-myrtle-lobster
 timeout: 5400
