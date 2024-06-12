@@ -52,7 +52,7 @@
                                         "git rev-parse --is-inside-work-tree"
                                     ],
                                     "stdout_text": "true",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/pytest-example.assess.sqaaas/job/master/13/execution/node/34/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/pytest-example.assess.sqaaas/job/master/19/execution/node/34/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/pytest-example.assess.sqaaas"
@@ -104,7 +104,7 @@
                                         "find_doc_files.py --file_type all"
                                     ],
                                     "stdout_text": "{\"README\": [{\"file_name\": \"README.md\", \"size\": 794}], \"CODE_OF_CONDUCT\": [], \"CONTRIBUTING\": []}",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/pytest-example.assess.sqaaas/job/master/13/execution/node/43/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/pytest-example.assess.sqaaas/job/master/19/execution/node/43/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/pytest-example.assess.sqaaas"
@@ -155,7 +155,7 @@
                                         "find_doc_files.py --file_type all"
                                     ],
                                     "stdout_text": "{\"README\": [{\"file_name\": \"README.md\", \"size\": 794}], \"CODE_OF_CONDUCT\": [], \"CONTRIBUTING\": []}",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/pytest-example.assess.sqaaas/job/master/13/execution/node/43/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/pytest-example.assess.sqaaas/job/master/19/execution/node/43/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/pytest-example.assess.sqaaas"
@@ -207,7 +207,7 @@
                                         "find_doc_files.py --file_type all"
                                     ],
                                     "stdout_text": "{\"README\": [{\"file_name\": \"README.md\", \"size\": 794}], \"CODE_OF_CONDUCT\": [], \"CONTRIBUTING\": []}",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/pytest-example.assess.sqaaas/job/master/13/execution/node/43/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/pytest-example.assess.sqaaas/job/master/19/execution/node/43/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/pytest-example.assess.sqaaas"
@@ -256,7 +256,7 @@
                                         "git rev-parse --is-inside-work-tree"
                                     ],
                                     "stdout_text": "true",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/pytest-example.assess.sqaaas/job/master/13/execution/node/52/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/pytest-example.assess.sqaaas/job/master/19/execution/node/52/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/pytest-example.assess.sqaaas"
@@ -298,7 +298,7 @@
                                         "mdl --json ."
                                     ],
                                     "stdout_text": "[{\"filename\":\"./README.md\",\"line\":34,\"rule\":\"MD011\",\"aliases\":[\"no-reversed-links\"],\"description\":\"Reversed link syntax\"},{\"filename\":\"./README.md\",\"line\":6,\"rule\":\"MD012\",\"aliases\":[\"no-multiple-blanks\"],\"description\":\"Multiple consecutive blank lines\"},{\"filename\":\"./README.md\",\"line\":10,\"rule\":\"MD012\",\"aliases\":[\"no-multiple-blanks\"],\"description\":\"Multiple consecutive blank lines\"},{\"filename\":\"./README.md\",\"line\":13,\"rule\":\"MD012\",\"aliases\":[\"no-multiple-blanks\"],\"description\":\"Multiple consecutive blank lines\"},{\"filename\":\"./README.md\",\"line\":14,\"rule\":\"MD012\",\"aliases\":[\"no-multiple-blanks\"],\"description\":\"Multiple consecutive blank lines\"},{\"filename\":\"./README.md\",\"line\":4,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./README.md\",\"line\":1,\"rule\":\"MD022\",\"aliases\":[\"blanks-around-headers\"],\"description\":\"Headers should be surrounded by blank lines\"},{\"filename\":\"./README.md\",\"line\":7,\"rule\":\"MD022\",\"aliases\":[\"blanks-around-headers\"],\"description\":\"Headers should be surrounded by blank lines\"},{\"filename\":\"./README.md\",\"line\":34,\"rule\":\"MD034\",\"aliases\":[\"no-bare-urls\"],\"description\":\"Bare URL used\"},{\"filename\":\"./README.md\",\"line\":36,\"rule\":\"MD034\",\"aliases\":[\"no-bare-urls\"],\"description\":\"Bare URL used\"}]",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/pytest-example.assess.sqaaas/job/master/13/execution/node/61/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/pytest-example.assess.sqaaas/job/master/19/execution/node/61/log?consoleFull"
                                 },
                                 "level": "RECOMMENDED",
                                 "build_repo": "https://github.com/eosc-synergy/pytest-example.assess.sqaaas"
@@ -388,8 +388,8 @@
                                     "stdout_command": [
                                         "bandit -f json --quiet  --confidence-level high --severity-level high --recursive ."
                                     ],
-                                    "stdout_text": "{\n  \"errors\": [],\n  \"generated_at\": \"2024-06-07T11:20:45Z\",\n  \"metrics\": {\n    \"./main.py\": {\n      \"CONFIDENCE.HIGH\": 0,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 0,\n      \"SEVERITY.LOW\": 0,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 9,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    },\n    \"./myapp/__init__.py\": {\n      \"CONFIDENCE.HIGH\": 0,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 0,\n      \"SEVERITY.LOW\": 0,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 0,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    },\n    \"./myapp/app.py\": {\n      \"CONFIDENCE.HIGH\": 0,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 0,\n      \"SEVERITY.LOW\": 0,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 5,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    },\n    \"./myapp/mymodule/__init__.py\": {\n      \"CONFIDENCE.HIGH\": 0,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 0,\n      \"SEVERITY.LOW\": 0,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 0,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    },\n    \"./myapp/mymodule/funcs.py\": {\n      \"CONFIDENCE.HIGH\": 0,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 0,\n      \"SEVERITY.LOW\": 0,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 11,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    },\n    \"./tests/__init__.py\": {\n      \"CONFIDENCE.HIGH\": 0,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 0,\n      \"SEVERITY.LOW\": 0,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 0,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    },\n    \"./tests/mymodule/__init__.py\": {\n      \"CONFIDENCE.HIGH\": 0,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 0,\n      \"SEVERITY.LOW\": 0,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 0,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    },\n    \"./tests/mymodule/test_additions.py\": {\n      \"CONFIDENCE.HIGH\": 1,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 0,\n      \"SEVERITY.LOW\": 1,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 6,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    },\n    \"./tests/mymodule/test_funcs.py\": {\n      \"CONFIDENCE.HIGH\": 4,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 0,\n      \"SEVERITY.LOW\": 4,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 14,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    },\n    \"./tests/test_app.py\": {\n      \"CONFIDENCE.HIGH\": 2,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 0,\n      \"SEVERITY.LOW\": 2,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 14,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    },\n    \"_totals\": {\n      \"CONFIDENCE.HIGH\": 7,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 0,\n      \"SEVERITY.LOW\": 7,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 59,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    }\n  },\n  \"results\": []\n}",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/pytest-example.assess.sqaaas/job/master/13/execution/node/79/log?consoleFull"
+                                    "stdout_text": "{\n  \"errors\": [],\n  \"generated_at\": \"2024-06-12T08:45:56Z\",\n  \"metrics\": {\n    \"./main.py\": {\n      \"CONFIDENCE.HIGH\": 0,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 0,\n      \"SEVERITY.LOW\": 0,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 9,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    },\n    \"./myapp/__init__.py\": {\n      \"CONFIDENCE.HIGH\": 0,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 0,\n      \"SEVERITY.LOW\": 0,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 0,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    },\n    \"./myapp/app.py\": {\n      \"CONFIDENCE.HIGH\": 0,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 0,\n      \"SEVERITY.LOW\": 0,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 5,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    },\n    \"./myapp/mymodule/__init__.py\": {\n      \"CONFIDENCE.HIGH\": 0,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 0,\n      \"SEVERITY.LOW\": 0,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 0,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    },\n    \"./myapp/mymodule/funcs.py\": {\n      \"CONFIDENCE.HIGH\": 0,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 0,\n      \"SEVERITY.LOW\": 0,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 11,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    },\n    \"./tests/__init__.py\": {\n      \"CONFIDENCE.HIGH\": 0,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 0,\n      \"SEVERITY.LOW\": 0,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 0,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    },\n    \"./tests/mymodule/__init__.py\": {\n      \"CONFIDENCE.HIGH\": 0,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 0,\n      \"SEVERITY.LOW\": 0,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 0,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    },\n    \"./tests/mymodule/test_additions.py\": {\n      \"CONFIDENCE.HIGH\": 1,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 0,\n      \"SEVERITY.LOW\": 1,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 6,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    },\n    \"./tests/mymodule/test_funcs.py\": {\n      \"CONFIDENCE.HIGH\": 4,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 0,\n      \"SEVERITY.LOW\": 4,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 14,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    },\n    \"./tests/test_app.py\": {\n      \"CONFIDENCE.HIGH\": 2,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 0,\n      \"SEVERITY.LOW\": 2,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 14,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    },\n    \"_totals\": {\n      \"CONFIDENCE.HIGH\": 7,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 0,\n      \"SEVERITY.LOW\": 7,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 59,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    }\n  },\n  \"results\": []\n}",
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/pytest-example.assess.sqaaas/job/master/19/execution/node/79/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/pytest-example.assess.sqaaas"
@@ -401,7 +401,7 @@
                             },
                             "data_unstructured": {
                                 "errors": [],
-                                "generated_at": "2024-06-07T11:20:45Z",
+                                "generated_at": "2024-06-12T08:45:56Z",
                                 "metrics": {
                                     "./main.py": {
                                         "CONFIDENCE.HIGH": 0,
@@ -590,7 +590,7 @@
                                         "flake8 ."
                                     ],
                                     "stdout_text": "./myapp/mymodule/funcs.py:19:23: W292 no newline at end of file\n./tests/test_app.py:10:14: E231 missing whitespace after ','\n./tests/mymodule/test_additions.py:6:41: E231 missing whitespace after ','\n./tests/mymodule/test_additions.py:6:54: E231 missing whitespace after ','\n./tests/mymodule/test_additions.py:6:57: E231 missing whitespace after ','\n./tests/mymodule/test_additions.py:6:66: E231 missing whitespace after ','\n./tests/mymodule/test_additions.py:6:69: E231 missing whitespace after ','\n./tests/mymodule/test_funcs.py:3:1: F403 'from myapp.mymodule.funcs import *' used; unable to detect undefined names\n./tests/mymodule/test_funcs.py:9:12: F405 'add' may be undefined, or defined from star imports: myapp.mymodule.funcs\n./tests/mymodule/test_funcs.py:11:1: E302 expected 2 blank lines, found 1\n./tests/mymodule/test_funcs.py:13:12: F405 'subtract' may be undefined, or defined from star imports: myapp.mymodule.funcs\n./tests/mymodule/test_funcs.py:15:1: E302 expected 2 blank lines, found 1\n./tests/mymodule/test_funcs.py:17:12: F405 'multiply' may be undefined, or defined from star imports: myapp.mymodule.funcs\n./tests/mymodule/test_funcs.py:19:1: E302 expected 2 blank lines, found 1\n./tests/mymodule/test_funcs.py:21:12: F405 'divide' may be undefined, or defined from star imports: myapp.mymodule.funcs",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/pytest-example.assess.sqaaas/job/master/13/execution/node/88/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/pytest-example.assess.sqaaas/job/master/19/execution/node/88/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/pytest-example.assess.sqaaas"
@@ -624,7 +624,7 @@
                                         "jsonlint-cli \"**/*.json\""
                                     ],
                                     "stdout_text": "",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/pytest-example.assess.sqaaas/job/master/13/execution/node/97/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/pytest-example.assess.sqaaas/job/master/19/execution/node/97/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/pytest-example.assess.sqaaas"
@@ -657,28 +657,29 @@
                     "evidence": [
                         {
                             "valid": false,
-                            "message": "Test cases are not passing using None testing framework",
+                            "message": "Test cases are not passing using bash testing framework",
                             "plugin": {
                                 "name": "report2sqaaas-plugin-jenkins_exit_status",
                                 "version": "2.1.0"
                             },
                             "tool": {
-                                "name": "pytest",
-                                "lang": "",
+                                "name": "commands",
+                                "lang": "default",
                                 "version": "not-provided",
                                 "docker": {
-                                    "image": "databricksdocs/pytest"
+                                    "image": "alpine:3.20.0",
+                                    "reviewed": "1970-01-01"
                                 },
                                 "ci": {
-                                    "name": "QC.Uni github.com/ptracesecurity/pytest-example pytest",
+                                    "name": "QC.Uni github.com/ptracesecurity/pytest-example commands",
                                     "status": "FAILED",
                                     "stdout_command": [
-                                        "pytest pytest -svv tests/mymodule/test_additions.py::test_add"
+                                        "pytest -sv"
                                     ],
-                                    "stdout_text": "============================= test session starts ==============================\nplatform linux -- Python 3.9.17, pytest-7.3.2, pluggy-1.0.0 -- /usr/local/bin/python3\ncachedir: .pytest_cache\nrootdir: /sqaaas-build/github.com/ptracesecurity/pytest-example\nconfigfile: pytest.ini\nplugins: cov-4.1.0, diff-0.1.14, pylama-8.4.1\ncollecting ... collected 0 items\n\n============================ no tests ran in 0.01s =============================\nERROR: file or directory not found: pytest",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/pytest-example.assess.sqaaas/job/master/13/execution/node/106/log?consoleFull"
+                                    "stdout_text": ".sqa/script.trippy-buff-sparrow.sh: line 8: pytest: not found",
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/pytest-example.assess.sqaaas/job/master/19/execution/node/106/log?consoleFull"
                                 },
-                                "level": "REQUIRED",
+                                "level": null,
                                 "build_repo": "https://github.com/eosc-synergy/pytest-example.assess.sqaaas"
                             },
                             "standard": {
@@ -729,7 +730,7 @@
                                         "get_git_tags.py"
                                     ],
                                     "stdout_text": "[]",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/pytest-example.assess.sqaaas/job/master/13/execution/node/115/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/pytest-example.assess.sqaaas/job/master/19/execution/node/115/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/pytest-example.assess.sqaaas"
@@ -772,7 +773,7 @@
                                         "get_git_tags.py"
                                     ],
                                     "stdout_text": "[]",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/pytest-example.assess.sqaaas/job/master/13/execution/node/115/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/pytest-example.assess.sqaaas/job/master/19/execution/node/115/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/pytest-example.assess.sqaaas"
@@ -815,7 +816,7 @@
                                         "get_git_tags.py"
                                     ],
                                     "stdout_text": "[]",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/pytest-example.assess.sqaaas/job/master/13/execution/node/115/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/pytest-example.assess.sqaaas/job/master/19/execution/node/115/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/pytest-example.assess.sqaaas"
