@@ -2,7 +2,7 @@ config:
   credentials: []
   project_repos:
     github.com/EOSC-synergy/sqaaas-tooling:
-      branch: release/2.2.0
+      branch: release/2.0.1
       repo: https://github.com/EOSC-synergy/sqaaas-tooling
     github.com/ptracesecurity/pytest-example:
       branch: master
@@ -15,54 +15,54 @@ sqa_criteria:
     repos:
       github.com/ptracesecurity/pytest-example git:
         commands:
-        - /usr/bin/env sh .sqa/script.jumpy-emerald-lionfish.sh
-        container: qc.acc_nerdy-dandelion-ferret
+        - /usr/bin/env sh .sqa/script.snazzy-salmon-bullfrog.sh
+        container: qc.acc_lousy-chartreuse-butterfly
   QC.Doc:
     repos:
       github.com/ptracesecurity/pytest-example find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.snoopy-viridian-uakari.sh
-        container: qc.doc_beady-corn-octopus
+        - /usr/bin/env sh .sqa/script.ready-cornflower-maltese.sh
+        container: qc.doc_nippy-olive-rattlesnake
       github.com/ptracesecurity/pytest-example git:
         commands:
-        - /usr/bin/env sh .sqa/script.hasty-carmine-dollar.sh
-        container: qc.doc_surly-taupe-hummingbird
+        - /usr/bin/env sh .sqa/script.tacky-magenta-tamarin.sh
+        container: qc.doc_zippy-plum-beagle
       github.com/ptracesecurity/pytest-example markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.lanky-heliotrope-turkey.sh
-        container: qc.doc_skinny-flax-lemming
+        - /usr/bin/env sh .sqa/script.bluesy-sapphire-goat.sh
+        container: qc.doc_woozy-burgundy-lion
   QC.Lic:
     repos:
       github.com/ptracesecurity/pytest-example licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.beady-silver-echidna.sh
-        container: qc.lic_beady-orange-cassowary
+        - /usr/bin/env sh .sqa/script.foggy-ecru-devil.sh
+        container: qc.lic_whiny-alizarin-chameleon
   QC.Sec:
     repos:
       github.com/ptracesecurity/pytest-example bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.freaky-taupe-neanderthal.sh
-        container: qc.sec_skimpy-puce-kingfisher
+        - /usr/bin/env sh .sqa/script.lovely-coral-flounder.sh
+        container: qc.sec_crabby-salmon-tiger
   QC.Sty:
     repos:
       github.com/ptracesecurity/pytest-example flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.hazy-zucchini-macaw.sh
-        container: qc.sty_flabby-periwinkle-deer
+        - /usr/bin/env sh .sqa/script.breezy-fuchsia-chin.sh
+        container: qc.sty_snoopy-crimson-cat
       github.com/ptracesecurity/pytest-example jsonlint:
         commands:
-        - /usr/bin/env sh .sqa/script.breezy-wisteria-jellyfish.sh
-        container: qc.sty_ready-ochre-dunker
+        - /usr/bin/env sh .sqa/script.greasy-apricot-gecko.sh
+        container: qc.sty_gimpy-mustard-spoonbill
   QC.Uni:
     repos:
-      github.com/ptracesecurity/pytest-example pytest:
+      github.com/ptracesecurity/pytest-example commands:
         commands:
-        - /usr/bin/env sh .sqa/script.cranky-seashell-squirt.sh
-        container: qc.uni_baggy-chartreuse-dugong
+        - /usr/bin/env sh .sqa/script.baggy-seashell-anteater.sh
+        container: qc.uni_breezy-teal-bongo
   QC.Ver:
     repos:
       github.com/ptracesecurity/pytest-example get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.stinky-burgundy-quokka.sh
-        container: qc.ver_paltry-malachite-discus
+        - /usr/bin/env sh .sqa/script.scummy-indigo-pinscher.sh
+        container: qc.ver_stuffy-olive-bullfrog
 timeout: 5400

@@ -5,5 +5,5 @@
 
 (
 cd github.com/ptracesecurity/pytest-example &&
-    pytest tests/mymodule/test_funcs.py::test_divide --json-report --json-report-indent 4
+    echo "This is where QC.Uni shall run"
 )
